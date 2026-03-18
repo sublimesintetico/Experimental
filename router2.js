@@ -295,7 +295,7 @@ function escribirType() {
 				document.getElementById('grid').appendChild(img);
 			}
 
-			if (funcUses % 2 === 0) {
+            if (funcUses % 2 === 0) {
 				row += Math.floor(Math.random() * 2) + 1
 				if ((Math.floor(Math.random() * 6) + 1) === 2) {
 					col -= Math.floor(Math.random() * 4) + 1

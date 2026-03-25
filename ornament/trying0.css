@@ -41,7 +41,8 @@ body {
     
     body { 
         margin-top: 1cm; 
-        break-after: page;
+        break-after: avoid;
+        break-before: avoid;
     }; 
 }
 

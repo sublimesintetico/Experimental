@@ -37,21 +37,20 @@
     }
 }
 
-@media print {
-    .header, .footer, .print-button, .form, .nav-contact, .nav-projects, .eye-tracker, .eye-container, .eye-pupil, .eye-tracker-container, .navbar0{
-        display: none;
-    }
-
-    @page {
+@page {
         size: 18cm 24cm; /*Antes 17 (Ancho) 22 (Altura)*/
         margin: 0;  
         margin-right: 0.6cm; 
-    };
-    
-    body { 
-        margin-top: 1cm; 
-        break-after: page;
-    }; 
+}
+
+@media print {
+    .header, .footer, .form, .print-button, .form, .nav-contact, .nav-projects, .eye-tracker, .eye-container, .eye-pupil, .eye-tracker-container, .navbar0, .container-0{
+        display: none;
+    }
+
+    .form, input, button, .print-button {
+        display: none !important;
+    }
 }
 
 body {

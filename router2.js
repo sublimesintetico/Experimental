@@ -195,9 +195,9 @@ const views = {
 
         <p style="border-bottom: 0.5em; border-style: solid; border-color: #f6f6f6; margin-left: 0em;">(2026)</p>
 
-        <p style="border-bottom: 0.5em; border-style: solid; border-color: #f6f6f6; margin-left: 3em; margin-bottom: -1.2em; cursor:pointer;"><a href="#/exp0" onclick="route()">/ Encrypted Prayers</a></p>
+        <p style="border-bottom: 0.5em; border-style: solid; border-color: #f6f6f6; margin-left: 3em; margin-bottom: -1.2em; cursor:pointer;"><a a href="./1essai/trying0.html">/ Encrypted Prayers</a></p>
 
-        <p style="border-bottom: 0.5em; border-style: solid; border-color: #f6f6f6; margin-left: 3em; margin-bottom: -1.2em; cursor:pointer;"><a href="#/exp0" onclick="route()">/ More coming Soon!</a></p>
+        <p style="border-bottom: 0.5em; border-style: solid; border-color: #f6f6f6; margin-left: 3em; margin-bottom: -1.2em; cursor:pointer;">/ More coming Soon!</p>
 
     </div>
   `,
